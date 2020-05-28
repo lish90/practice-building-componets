@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {usedState} from 'react';
+import Tweet from './components/Tweet'
 
 
 function App() {
+
   return(
-      <div>
-    <h1>hello react </h1>
+      <div className='App'>
+      
+    <Tweet name ='sarah' message ='what you saying' likes='200k'/>
+    <Tweet name = 'tina'  message ='it works' like='400k'/>
+    <Tweet name = 'rachel' message ='2nd attemp and i get it' like='1900k'/>
       </div>
   );
 }
