@@ -8,8 +8,10 @@
   min-height:100vh;
   background-color: aquamarine;
   display: flex ;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .tweet{
@@ -22,6 +24,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 20px;
 }
 .red{
   color: rebeccapurple;

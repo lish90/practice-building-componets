@@ -12,7 +12,7 @@ function Buildingup(){
     };
 
     return(
-      <div>
+      <div className="Buildingup">
         {/* switch class in the red class example below */}
         <h1 className={isRed ? "red": ""}>change my color</h1>    
         <button onClick={up}>up</button>
